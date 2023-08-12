@@ -1,10 +1,10 @@
 # confluent-kafka-python
 
 
-This repo help us to know how to publish and consume data to and from kafka confluent in json format.
+This repo helps us to know how to publish and consume data to and from kafka confluent in json format.
 
-<img src="flowchart/consumer.drawio.svg" alt="consumer drawing">
 <img src="flowchart/producer.drawio.svg" alt="producer drawing">
+<img src="flowchart/consumer.drawio.svg" alt="consumer drawing">
 
 ## How to Run
 
@@ -27,7 +27,7 @@ Step4:
 pip install -r requirements.txt
 ```
 
-Below repo help you to obtain requried credentials
+Below repo helps you to obtain required credentials
 ```
 https://github.com/Big-Data-01/confluent-tutorial.git
 ```
@@ -47,7 +47,7 @@ SCHEMA_REGISTRY_API_KEY
 SCHEMA_REGISTRY_API_SECRET
 ENDPOINT_SCHEMA_URL
 ```
-Data base related Environment Variable
+Database related Environment Variable
 ```
 MONGO_DB_URL
 ```
@@ -55,7 +55,7 @@ MONGO_DB_URL
 ## Update the credential in .env file and run below command to run your application in docker container
 
 
-Create .env file in root dir of your project if it is not available
+Create .env file in root dir of your project if it is not available to 
 paste the below content and update the credentials
 ```
 API_KEY=asgdakhlsa

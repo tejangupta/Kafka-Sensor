@@ -15,7 +15,7 @@ SCHEMA_REGISTRY_API_SECRET = os.getenv('SCHEMA_REGISTRY_API_SECRET', None)
 
 
 def sasl_conf():
-    sasl_conf = {'sasl.mechanism': SSL_MACHENISM,
+    sasl_conf = {'sasl.mechanisms': SSL_MACHENISM,
                  # set to SASL_SSL to enable TLS support.
                  # 'security.protocol': 'SASL_PLAINTEXT'}
                  'bootstrap.servers': BOOTSTRAP_SERVER,
